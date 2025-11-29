@@ -187,18 +187,6 @@ python train_models.py --data-path data/my_dataframe.csv
 
 ---
 
-## Files in this repo (suggested)
-
-* `README.md` — this file
-* `data/my_dataframe.csv` — dataset (or link to raw CSV)
-* `notebooks/eda.ipynb` — exploratory data analysis and visualizations
-* `notebooks/preprocessing.ipynb` — missing value handling, outlier handling, standardization
-* `notebooks/modeling.ipynb` — model training, GridSearchCV, SMOTE usage, evaluation
-* `scripts/train_models.py` — optional script to run training end-to-end
-* `requirements.txt` — packages and versions
-
----
-
 ## Conclusion & Future Work
 
 * The Random Forest classifier performed best in this analysis with ~74.18% accuracy.
